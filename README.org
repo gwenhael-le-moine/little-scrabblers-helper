@@ -1,0 +1,15 @@
+Little Scrabble® Helper, LSH for short.
+
+* What?
+LSH helps you play Scrabble® by finding the words that can be played with your rack.
+For this it needs a dictionary, that is a text file with all the possible words, one per line.
+
+* How?
+  You start LSH like this:
+      $ ./little-scrabble-helper.rb dictfile
+  where dictfile is the dictionary. The first time LSH encounter a new dictionary it will generate a dictfile_hash file which will allow the dictionary to be loaded faster later. You can delete this file and it will be created again the next time.
+  Once launched LSH then waits for you to input your rack, with the . character to represent the joker, and it will show you what words of the dictionary you can play.
+  Note that LSH doesn't care how many letters you gives it.
+
+* That's all
+  Enjoy.
