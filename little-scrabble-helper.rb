@@ -32,7 +32,7 @@ def lookup( word, dict )
       result.concat( dict[ hash( word ) ] )
    else
       ("a".."z").map do |letter|
-         result.concat( lookup( word.sub( '.', letter ), dict ) )
+         result.concat( lookup( word.sub( '.', letter ), dict ).map { |word| word.sub( letter, letter.upcase ) } )
       end
    end
    return result.sort
