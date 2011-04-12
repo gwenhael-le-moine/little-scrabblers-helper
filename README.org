@@ -1,4 +1,4 @@
-Little Scrabble® Helper, LSH for short.
+Little Scrabble®s' Helper, LSH for short.
 
 * What?
 LSH helps you play Scrabble® by finding the words that can be played with your rack.
